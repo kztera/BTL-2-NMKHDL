@@ -1,3 +1,5 @@
+# Là file chạy thứ 2 trong quá trình chuẩn bị dữ liệu. File sẽ thực hiện đẩy dữ liệu từ elasticsearch vào neo4j. Thực hiện treo máy chạy trong 4 tiếng nhận được hơn 100.000 nodes và hơn 500.000 relationships. Các nodes và relationships này sẽ được sử dụng trong quá trình tìm kiếm và đề xuất công thức món ăn.
+
 from elasticsearch import Elasticsearch
 from py2neo import Graph, Node, Relationship, GraphService, NodeMatcher
 

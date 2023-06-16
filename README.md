@@ -9,7 +9,7 @@
 
 ## Các file báo cáo
 
-1. [Bản dịch Tiếng Việt]()
+1. [Bản dịch Tiếng Việt](chapter7_vi.pdf)
 
 2. File mã nguồn được lưu trong thư mục [src](src/) gồm:
    - [python2](src/python2/): là file mã nguồn gốc được lấy từ sách
@@ -77,8 +77,9 @@ xpack.security.transport.ssl:
 4. Cài đặt các thư viện cần thiết: `pip install -r requirements.txt`
 5. Cài đặt Oracle Java 17 và Neo4j Community Edition từ https://www.oracle.com/java/technologies/downloads/ và https://neo4j.com/download-center/
 6. Khởi động Neo4j và tạo mật khẩu cho Neo4j cũng như cài đặt thành một dịch vụ Windows
-7. Chạy `elasticsearch.bat` trong thư mục `bin` của Elasticsearch 
-8. Thứ tự chạy các file mã nguồn:
+7. Chạy `elasticsearch.bat` trong thư mục `bin` của Elasticsearch
+8. Khởi chạy môi trường ảo bằng lệnh `source venv/bin/activate`
+9. Thứ tự chạy các file mã nguồn:
 - [Data_Preparation_1.ipynb](src/python3/Data_Preparation_1.ipynb)
 - [Data_Preparation_2.py](src/python3/Data_Preparation_2.py)
 - [Exploration_n_Recommendation.ipynb](src/python3/Exploration_n_Recommendation.ipynb) 
