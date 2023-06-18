@@ -2,23 +2,23 @@
 
 ## Thành viên
 
-| Thành viên | Phân công công việc                       | Mức độ hoàn thành |
-| ---------- | ----------------------------------------- | ----------------- |
-| A42718 - Lê Thảo Quyên      | Bản dịch Tiếng Việt                       | 100%              |
-| A41316 - Nguyễn Hữu Khoa       | Thực hiện ghi chép và chuyển đổi mã nguồn | 100%              |
+| Thành viên               | Phân công công việc                       | Mức độ hoàn thành |
+| ------------------------ | ----------------------------------------- | ----------------- |
+| A42718 - Lê Thảo Quyên   | Bản dịch Tiếng Việt, Hiệu đính Slide                       | 100%              |
+| A41316 - Nguyễn Hữu Khoa | Thực hiện Slide tóm tắt, ghi chép và chuyển đổi mã nguồn | 100%              |
 
 ## Các file báo cáo
 
 1. [Bản dịch Tiếng Việt](chapter7_vi.pdf)
-
-2. File mã nguồn được lưu trong thư mục [src](src/) gồm:
+2. [Slide tóm tắt](slide/Chapter7_summary.pdf)
+3. File mã nguồn được lưu trong thư mục [src](src/) gồm:
    - [python2](src/python2/): là file mã nguồn gốc được lấy từ sách
    - [python3](src/python3/): là file mã nguồn đã được chuyển đổi cú pháp sang python3
      - [Data_Preparation_1.ipynb](src/python3/Data_Preparation_1.ipynb): Chuẩn bị dữ liệu tải dữ liệu lên Elasticsearch
      - [Data_Preparation_2.ipynb](src/python3/Data_Preparation_2.ipynb): Chuẩn bị dữ liệu: Chuyển dữ liệu từ Elasticsearch sang Neo4j
      - [Exploration_n_Recommendation.ipynb](src/python3/Exploration_n_Recommendation.ipynb): Khám phá dữ liệu và đề xuất món ăn
 
-3. Chương cung cấp gồm 3 file dữ liệu:
+4. Chương cung cấp gồm 3 file dữ liệu:
    - Ingerdients.txt: Chứa tên các nguyên liệu
    - Recipes.json: Chứa công thức nấu ăn
    - Elasticsearch index.zip: Bao gồm 'gastronomical' Elasticsearch index để bạn có thể bỏ qua bước chuẩn bị dữ liệu [phần 1](src/python3/Data_Preparation_1.ipynb) mà vẫn có thể tiếp tục với bước chuẩn bị dữ liệu [phần 2](src/python3/Data_Preparation_2.ipynb)
@@ -80,8 +80,8 @@ xpack.security.transport.ssl:
 7. Chạy `elasticsearch.bat` trong thư mục `bin` của Elasticsearch
 8. Khởi chạy môi trường ảo bằng lệnh `source venv/bin/activate`
 9. Thứ tự chạy các file mã nguồn:
-- [Data_Preparation_1.ipynb](src/python3/Data_Preparation_1.ipynb)
-- [Data_Preparation_2.py](src/python3/Data_Preparation_2.py)
+- [Data_Preparation_1.py](src/python3/DataPreparation1.py)
+- [Data_Preparation_2.py](src/python3/DataPreparation2.py)
 - [Exploration_n_Recommendation.ipynb](src/python3/Exploration_n_Recommendation.ipynb) 
 
 ## Cập nhật
