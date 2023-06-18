@@ -19,9 +19,9 @@
      - [Exploration_n_Recommendation.ipynb](src/python3/Exploration_n_Recommendation.ipynb): Khám phá dữ liệu và đề xuất món ăn
 
 4. Chương cung cấp gồm 3 file dữ liệu:
-   - Ingerdients.txt: Chứa tên các nguyên liệu
-   - Recipes.json: Chứa công thức nấu ăn
-   - Elasticsearch index.zip: Bao gồm 'gastronomical' Elasticsearch index để bạn có thể bỏ qua bước chuẩn bị dữ liệu [phần 1](src/python3/Data_Preparation_1.ipynb) mà vẫn có thể tiếp tục với bước chuẩn bị dữ liệu [phần 2](src/python3/Data_Preparation_2.ipynb)
+   - [Ingerdients.txt](src/python3/ingredients.txt): Chứa tên các nguyên liệu
+   - [Recipes.json](src/python3/recipes.zip): Chứa công thức nấu ăn
+   - [Elasticsearch index.zip](src/python3/elasticsearch%20index.zip): Bao gồm 'gastronomical' Elasticsearch index để bạn có thể bỏ qua bước chuẩn bị dữ liệu [phần 1](src/python3/Data_Preparation_1.ipynb) mà vẫn có thể tiếp tục với bước chuẩn bị dữ liệu [phần 2](src/python3/Data_Preparation_2.ipynb)
 
 ## Các thay đổi của mã nguồn so với sách gốc
 
